@@ -13,6 +13,6 @@ RUN ["alien", "--install", "oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.r
 RUN ["npm", "install", "-g", "npm"]
 RUN ["npm", "install", "-g", "node-gyp"]
 WORKDIR /var/app
-RUN ["npm". "install", "oracledb"]
+RUN ["npm", "install", "oracledb"]
 # ENV LD_LIBRARY_PATH=/usr/lib/oracle/12.1/client64/lib
 CMD ["/bin/bash"]
